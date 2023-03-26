@@ -64,7 +64,7 @@ const Login = ({ setUser, setSecret }) => {
         </div>
         <div className='login-helper'>
           <br/>
-          <p>Use 'testing' &#40;small 't'&#41; <br/>and '1234' for demo chats<br/>or sign up</p>
+          <p>Use 'testing' &#40;small 't'&#41; <br/>and '1234aichat' for demo chats<br/>or sign up</p>
         </div>
       </div>
     </div>
