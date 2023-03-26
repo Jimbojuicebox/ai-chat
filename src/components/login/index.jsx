@@ -27,12 +27,18 @@ const Login = ({ setUser, setSecret }) => {
     <div className="login-page">
       <div className="login-container">
         <h2 className="title">AI Chat</h2>
-        <p
+
+        <div className='login-helper'>
+          <br/>
+          <p>Use '<span>testing</span>' &#40;small 't'&#41; <br/>and '<span>1234aichat</span>' for demo chats</p>
+        </div>
+
+        {/* <p
           className="register-change"
           onClick={() => setIsRegister(!isRegister)}
         >
           {isRegister ? "Already a user?" : "Are you a new user?"}
-        </p>
+        </p> */}
 
         <div>
           <input
@@ -62,10 +68,7 @@ const Login = ({ setUser, setSecret }) => {
             </button>
           )}
         </div>
-        <div className='login-helper'>
-          <br/>
-          <p>Use 'testing' &#40;small 't'&#41; <br/>and '1234aichat' for demo chats<br/>or sign up</p>
-        </div>
+        
       </div>
     </div>
   );

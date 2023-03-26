@@ -93,6 +93,10 @@ body,
 }
 
 .login-helper p {
+  color: $gray-300;
+}
+
+.login-helper p span {
   color: $quaternary-500;
 }
 
